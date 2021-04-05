@@ -1,25 +1,26 @@
 # Overview of the Election Audit
-The purpose of this election audit is to find out three things: the voter turnout for each county, the percentage of votes from each county out of the total count and to find out which county had the highest voter turnout. With the experience we had doing or coding this audit we were also givemn a chance to make some recommendations to the elections commission.
+The purpose of this election audit is to find out three things: the voter turnout for each county, the percentage of votes from each county out of the total count and to find out which county had the highest voter turnout. With the experience we had doing or writing the code for this audit we were also given a chance to make some recommendations to the elections commission, based on how the code can be modified to suit their (possible) needs in the future.
 
 # Election Audit Results
 
-* There was a total of 369, 711 votes cast during the election
+* There was a total of 369, 711 votes cast during the election.
 
-* Three counties participated in this election: Arapahoe, Denver and Jefferson. Denver had the highest voter turnout, followed by Jefferson County at 306,055, which was 10.5% of the voter turnout and Arapahoe County at 24,801 which was 6.7% of the voter turnout.
+* Three counties participated in this election: Arapahoe, Denver and Jefferson. Denver had the highest voter turnout, followed by Jefferson County at 38,855, which was 10.5% of the total voter turnout and Arapahoe County at 24,801 which was 6.7% of the total voter turnout.
 
   These were the lines of code used to determine the voter turnout for each county
   ![Determining_county_turnouts](Resources/county_vote_counts1.png)
 
 * In terms of voter turnout, Denver had the most number of registered voters who participated in the elections. The 306,055 ballots cast from Denver made up 82.8% of the total votes for this election.
+  The code used to determine the largest voter turnout by county is shown below.
   ![Determining_largest_ county_turnouts](Resources/determining_largest_county_turnout1.png)
  
-* Three candidates were vying for the same position, Charles Casper Stockham Diane DeGette and Raymon Anthony Doane.
-Raymon Anthony Doane had the least number of votes at 11,606, which made up 3.1% of the voter share. Charles Casper Stockham had 85,213 votes which was equal to 23.0% of the voter share. Diane De Gette had the most number of votes at 272,892 and highest voter share at 73.8%
-  These were the lines of code use to determine the number of votes for each candidate. 
+* Three candidates were vying for the same position, Charles Casper Stockham, Diane DeGette and Raymon Anthony Doane.
+Raymon Anthony Doane had the least number of votes at 11,606, which made up 3.1% of the voter share. Charles Casper Stockham had 85,213 votes which was equal to 23.0% of the voter share. Diane De Gette had the most number of votes at 272,892 and highest voter share at 73.8%.
+  These were the lines of code used to determine the number of votes for each candidate. 
   ![Determining_candidate_voter_share](Resources/candidates_vote_counts1.PNG)
 
 * Dianne DeGette is the winner of this election, having 272, 892 votes, which made up 73.8% of the total number of votes.
-  The code used for determining these results is 
+  The code used for determining who the winning candidate is is shown below.
   ![Determining_winning candidate](Resources/determining_winning_candidate.png)
   
   And finally, This is a summary of the election audit results.
