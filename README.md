@@ -1,9 +1,5 @@
-# Election_Analysis
-Challenge 3 - Python UCB Bootcamp
-
-# Overview of Election Audit
-The purpose of this election audit is to find out three things: the voter turnout for each county, the percentage of votes from each county out of the total count
-and to find out which county had the highest voter turnout.
+# Overview of the Election Audit
+The purpose of this election audit is to find out three things: the voter turnout for each county, the percentage of votes from each county out of the total count and to find out which county had the highest voter turnout. With the experience we had doing or coding this audit we were also givemn a chance to make some recommendations to the elections commission.
 
 # Election Audit Results
 
@@ -12,6 +8,7 @@ and to find out which county had the highest voter turnout.
 * Three counties participated in this election: Arapahoe, Denver and Jefferson. Denver had the highest voter turnout, followed by Jefferson County at 306,055, which was 10.5% of the voter turnout and Arapahoe County at 24,801 which was 6.7% of the voter turnout.
 
   These were the lines of code used to determine the voter turnout for each county
+ ![Determining_county_turnouts](Resources/county_vote_counts1.png)
 
 * In terms of voter turnout, Denver had the most number of registered voters who participated in the elections. The 306,055 ballots cast from Denver made up 82.8% of the total votes for this election.
 
